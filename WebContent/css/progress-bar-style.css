@@ -1,0 +1,56 @@
+HTML CSS JSResult Skip Results Iframe
+EDIT ON
+/*========= LoadingのためのCSS ===============*/
+
+/* Loading背景画面設定　*/
+
+#splash {
+    /*fixedで全面に固定*/
+  top:300px;
+  left:50%;
+  position: fixed;
+  z-index: 999;
+  max-width: 100%;
+  background:orange;
+  text-align:center;
+  color:orange;
+  z-index:998;
+}
+
+/* Loadingバー中央配置　*/
+#splash_text {
+  position: fixed;
+  top: 200px;
+  left: 45%;
+  z-index: 999;
+   max-width: 100%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align:center;
+}
+
+
+/*IE11対策用バーの線の高さ※対応しなければ削除してください*/
+#splash_text svg{
+    height: 2px;
+}
+
+/* .loading-message{
+	color:white;
+	position:absolute;
+	top:-125px;
+	left:48%;
+	margin:0 auto 0 auto;
+	text-align:center;
+} */
+
+
+
+/*========= レイアウトのためのCSS ===============*/
+
+
+
+
+
+
+Resources1× 0.5× 0.25×Rerun

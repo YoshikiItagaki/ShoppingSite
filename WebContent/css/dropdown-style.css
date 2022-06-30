@@ -1,0 +1,63 @@
+
+.menu-container ul {
+	position: fixed;
+	top: 100px;
+	left: 0;
+	display: block;
+
+}
+
+.menu-container ul li {
+	list-style: none;
+	font-size: 0.8em;
+	display: block;
+	width: 150px;
+	max-width: 100%;
+	height: 60px;
+	color: yellow;
+}
+
+/*ナビゲーションのリンク設定*/
+.menu-container ul li a {
+	/*矢印の基点にするためrelativeを指定*/
+	left: 0;
+	display: block;
+	text-decoration: none;
+	text-align: left;
+	color: white;
+	transition: all .3s;
+	width: 120px;
+	height:40px;
+	top: 5px;
+}
+
+/*==矢印の設定*/
+
+/*== 2階層目の設定 */
+.menu-container ul li.has-child ul {
+	position: relative;
+	display: block;
+	left: 120px;
+	top: -60px;
+	/*はじめは非表示*/
+	border: none;
+	visibility: hidden;
+	opacity: 0;
+	/*アニメーション設定*/
+	transition: all .3s;
+	padding: 0 0 0 0;
+}
+
+/*hoverしたら表示*/
+.menu-container ul li.has-child:hover>ul {
+	visibility: visible;
+	opacity: 1;
+	height: 60px;
+	z-index: 50;
+	transition: all .3s;
+}
+
+li.has-child ul li   :hover {
+	background-color: orange;
+	transition: all .3s;
+}

@@ -1,0 +1,328 @@
+@charset "UTF-8";
+
+.input-container {
+	position: relative;
+	color: orange;
+	background-color: #333;
+	width: 80%;
+	height: auto;
+	padding: 20% auto 10% auto;
+	margin: 15% auto 150px auto;
+	left: 100px;
+	font-weight: bold;
+}
+
+.sign-in-container{
+	max-width:100%;
+	height:auto;
+	margin:30px auto 20px auto;
+	padding-left:200px;
+}
+
+.sign-in-table tr{
+	left:200px;
+}
+
+
+.sign-in-table td{
+	padding-left:80px;
+	max-width:100%;
+	height:auto;
+	margin:50px auto 50px auto;
+}
+
+.welcome-header{
+	position:fixed;
+	top:35px;
+	left:200px;
+	font-size:150%;
+	color:white;
+
+}
+
+h2 {
+	text-align: center;
+	padding: 50px 30px;
+}
+
+p{
+    font-weight: bold;
+    margin-left:25%;
+}
+
+.form table tr td {
+	position: relative;
+	width: 20%;
+	margin: 0 10% 0 auto;
+	text-align: center;
+}
+
+.form {
+	position: relative;
+	margin: 3vh auto auto auto;
+	width: 100%;
+	height: auto;
+}
+
+.form-button {
+	position: relative;
+	margin: 30px auto 30px 40%;
+	background-color: orange;
+	color: white;
+	height: 35px;
+	width: 110px;
+	border: white;
+	border-style: double;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.input-container p {
+	text-align: center;
+	display: inline-block;
+}
+
+.search-bar {
+	position: inline-block;
+	width: 100%;
+	margin-bottom: 100px;
+}
+
+#keyword {
+	position: absolute;
+	right: 40%;
+	text-align: center;
+	width: 30%;
+	height: 30px;
+	margin-right: 100px;
+	border: orange;
+	border-style: solid;
+	border-radius: 10px;
+}
+#uploader {
+	position: absolute;
+	right: 40%;
+	text-align: center;
+	width: 300px;
+	height: 30px;
+	margin-right: 15px;
+	border: orange;
+	border-style: solid;
+	border-radius: 10px;
+	font-weight:bold;
+	color:orange;
+}
+
+.search-button {
+	position: absolute;
+	margin: 0 auto 30px auto;
+	right: 25%;
+	background-color: orange;
+	color: white;
+	height: 35px;
+	width: 100px;
+	border: white;
+	border-style: double;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.upload-button {
+	position: absolute;
+	margin: 0 auto 30px auto;
+	right: 25%;
+	background-color: orange;
+	color: white;
+	height: 35px;
+	width: 100px;
+	border: white;
+	border-style: double;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+select{
+	background-color:white;
+	height:30px;
+	width:240px;
+	font-weight:bold;
+	text-align:center;
+	margin-top:5%;
+	border-radius:5px;
+}
+
+select:hover, select:active{
+	background-color:orange;
+	color:white;
+}
+
+select option{
+	background-color:white;
+	color:orange;
+	height:25px;
+}
+
+select option:hover{
+	background-color:#333;
+	color:white;
+	font-weight:900;
+}
+
+
+
+
+
+
+.search-container{
+	display:flex;
+	max-width:80%;
+	height:auto;
+	padding-top:2%;
+	padding-left:20%;
+}
+
+.min-max-search{
+	margin-right:3%;
+	position: relative;
+	margin: 3vh auto auto auto;
+	width: 100%;
+	height: auto;
+	padding-left:300px;
+}
+
+#min-max-button{
+	position: relative;
+	margin: 40px auto 30px 5%;
+	background-color: orange;
+	color: white;
+	height: 35px;
+	width: 100px;
+	border: white;
+	border-style: double;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+#birthyear-search-button{
+	position: relative;
+	margin: 40px auto 30px 5%;
+	background-color: orange;
+	color: white;
+	height: 35px;
+	width: 100px;
+	border: white;
+	border-style: double;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+.desc{
+	top: 33px;
+	background-color: orange;
+	color: white;
+	height: 30px;
+	width: 60px;
+	margin-left: 1em;
+	border: white;
+	border-style: double;
+	border-radius: 5px;
+	cursor: pointer
+}
+
+.asc{
+	right: 3%;
+	top: 33px;
+	background-color: orange;
+	color: white;
+	height: 30px;
+	width: 60px;
+	margin-left: 1em;
+	border: white;
+	border-style: double;
+	border-radius: 5px;
+	cursor: pointer
+}
+
+.sort-search-button{
+	position: relative;
+	margin: 40px auto 30px 5%;
+	background-color: orange;
+	color: white;
+	height: 35px;
+	width: 100px;
+	border: white;
+	border-style: double;
+	border-radius: 5px;
+	cursor: pointer;
+
+}
+
+table {
+	position:relative;
+	margin-top: 150px;
+	margin-left: 10%;
+	color: white;
+	text-align: left;
+}
+
+tr {
+	padding-top: 15px;
+	padding-bottom: 35px;
+	color: white;
+}
+
+td {
+	padding-top: 15px;
+	padding-bottom: 35px;
+	padding-right: 50px;
+	padding-bottom: 20px;
+	font-size: 90%;
+	color: white;
+}
+
+td a {
+	color: white;
+	text-decoration: none;
+}
+
+td a:hover {
+	color: orange;
+}
+
+.product-image {
+	width: 30vh;
+	height: 30vh;
+	margin: 20px auto 10px auto;
+	border-radius: 5px;
+}
+
+.upload-image{
+	padding-left:20%;
+	padding-top:5%;
+	max-width:68vh;
+	height:40vh;
+
+}
+
+.contact-header{
+	padding-bottom:50px;
+	padding-left:50px;
+}
+
+.contact-header p{
+	font-size:150%;
+}
+
+.contact-image{
+	width: 85vh;
+	height:50vh;
+	right:100vh;
+	padding-left:5vh;
+	border-radius:10px;
+}
+
+.contact-label{
+	color:orange;
+	font-size:125%;
+}

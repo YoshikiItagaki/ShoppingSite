@@ -1,0 +1,84 @@
+.picture-container{
+  display: fixed;;
+  background-color:#333;
+  max-width: 100%;
+  height: auto;
+  top:380px;
+  margin-right:50px;
+}
+
+  .slider{
+    position: fixed;
+    max-width: 80%;
+    height: 20%;
+    left:200px;
+    margin-right:50px;
+
+      }
+
+  .sake{
+  	position:relative;
+    width: 145vh;
+    height: 85vh;
+    margin:0 50px 0 auto;
+    top:80px;
+    border-radius: 2%;
+  }
+
+    a:hover,
+    a:active{
+      text-decoration: none;
+    }
+
+
+/*==================================================
+スライダーのためのcss
+===================================*/
+
+.slider li{
+	right:100px;
+}
+
+.slider li a{
+  text-decoration: none;
+}
+
+
+.slider .slick-slide {
+  transform: scale(0.8);/*左右の画像のサイズを80%に*/
+  transition: all .5s;/*拡大や透過のアニメーションを0.5秒で行う*/
+  opacity: 1;/*透過50%*/
+}
+
+.slider .slick-slide.slick-center{
+   right:30px;
+  transform: scale(1);/*中央の画像のサイズだけ等倍に*/
+  opacity: 1;/*透過なし*/
+}
+
+
+/*ドットナビゲーションの設定*/
+
+.slick-dots {
+    text-align:center;
+  margin:0 0 0 0;
+}
+
+.slick-dots li {
+    display:inline-block;
+  margin:0 5px;
+}
+
+.slick-dots button {
+    color: transparent;
+    outline: none;
+    width:8px;/*ドットボタンのサイズ*/
+    height:8px;/*ドットボタンのサイズ*/
+    display:block;
+    border-radius:50%;
+    background:#ccc;/*ドットボタンの色*/
+}
+
+.slick-dots .slick-active button{
+    background:#333;/*ドットボタンの現在地表示の色*/
+}
